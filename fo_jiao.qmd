@@ -1,0 +1,135 @@
+---
+title: ""
+author: ""
+
+format:
+  docx:
+    toc: false
+    number-sections: false
+    fig-dpi: 300          # optional for PNG fallback
+    dev: dml              # chèn ggplot dạng vector
+    reference-doc: "source/tcyhtp_template_abstract.docx"
+    fig-align: center
+    
+bibliography: "source/TCYH_tltk.bib"
+csl: "source/ama-brackets.csl"
+lang: vi
+language:
+  labels:
+    fig: Hình
+editor: source
+---
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+#| paged-print: false
+library(here)
+
+source(here::here("R", "packages.R"), echo = TRUE, max.deparse.length = Inf)
+
+```
+
+::: {custom-style="tieu_de"}
+Giá trị bình thường của bộ test VnCA trên người Việt Nam: Kết quả nghiên cứu từ Dự
+án VAN
+:::
+
+::: {custom-style="Tacgia"}
+Nguyễn Trần Thanh Trúc²,Đỗ Thanh Liêm¹, Trần Công Thắng²
+:::
+
+::: {custom-style="Diachi"}
+¹ Bệnh viện 30-4, Bộ Công an
+
+² Đại học Y dược TP
+
+Email báo cáo viên: liem20k@gmail.com
+
+Điện thoại báo cáo viên: 09856619088
+:::
+
+
+# 1. ĐẶT VẤN ĐỀ
+
+# 印造佛經佛像之十大利益  
+**Yìnzào Fójīng Fóxiàng zhī shí dà lìyì**  
+**Mười lợi ích lớn của việc ấn hành kinh Phật và hình tượng Phật**  
+**Ten Great Benefits of Printing Buddhist Scriptures and Images**
+
+---
+
+1. **從所印經書種種經過，皆得無量功德。**  
+   *Cóng suǒ yìn jīngshū zhǒngzhǒng jīngguò, jiē dé wúliàng gōngdé*  
+   Mọi quá trình liên quan đến việc in kinh đều tạo ra công đức vô lượng.  
+   Every step involved in printing scriptures generates immeasurable merit.
+
+2. **常得吉神擁護，福壽增高，水火盜賊不能侵害。**  
+   *Cháng dé jíshén yǒnghù, fúshòu zēnggāo, shuǐ huǒ dàozéi bùnéng qīnhài*  
+   Thường được thần lành bảo hộ, tăng phúc thọ, tránh khỏi tai họa như nước, lửa, trộm cướp.  
+   Protected by auspicious spirits, with increased blessings and longevity; immune to harm from water, fire, and thieves.
+
+3. **所居之處，遠離災難，永保安寧。**  
+   *Suǒ jū zhī chù, yuǎnlí zāinàn, yǒng bǎo ānníng*  
+   Nơi cư trú tránh xa tai họa, luôn được bình an.  
+   One’s residence is free from disasters and remains peaceful.
+
+4. **夜叉惡鬼，不敢近身。**  
+   *Yèchā èguǐ, bù gǎn jìnshēn*  
+   Dạ xoa và ác quỷ không dám đến gần.  
+   Yakshas and evil spirits dare not approach.
+
+5. **所生之處，常逢佛法，永不離佛。**  
+   *Suǒ shēng zhī chù, cháng féng Fófǎ, yǒng bù lí Fó*  
+   Nơi tái sinh luôn gặp Phật pháp, không bao giờ xa lìa Phật.  
+   Wherever one is reborn, they will encounter the Dharma and never be separated from the Buddha.
+
+6. **所作之事，皆得如意，所求如願。**  
+   *Suǒ zuò zhī shì, jiē dé rúyì, suǒ qiú rúyuàn*  
+   Mọi việc làm đều như ý, mọi điều cầu đều thành tựu.  
+   All endeavors go smoothly, and all wishes are fulfilled.
+
+7. **亡者得生善道，永離惡道之苦。**  
+   *Wángzhě dé shēng shàndào, yǒng lí èdào zhī kǔ*  
+   Người đã mất được sinh vào đường lành, vĩnh viễn thoát khỏi khổ đau nơi ác đạo.  
+   The deceased are reborn in good realms, forever free from the suffering of evil paths.
+
+8. **所印經書，流通之處，皆令眾生種善根，得成佛道。**  
+   *Suǒ yìn jīngshū, liútōng zhī chù, jiē lìng zhòngshēng zhǒng shàngēn, dé chéng Fódào*  
+   Kinh sách được in ra, nơi nào lưu thông đều giúp chúng sinh gieo thiện căn, thành tựu đạo Phật.  
+   Wherever the printed scriptures circulate, they help beings plant good roots and attain Buddhahood.
+
+9. **永離三途之苦，得生人天，受勝妙樂。**  
+   *Yǒng lí sāntú zhī kǔ, dé shēng rén tiān, shòu shèng miàolè*  
+   Vĩnh viễn thoát khỏi khổ đau ba đường ác, được sinh vào cõi người và trời, hưởng niềm vui thù thắng.  
+   Forever free from the suffering of the three evil realms, reborn in human or heavenly realms to enjoy sublime bliss.
+
+10. **所印經書，若人見聞，誦持供養，皆得無量功德。**  
+    *Suǒ yìn jīngshū, ruò rén jiànwén, sòngchí gòngyǎng, jiē dé wúliàng gōngdé*  
+    Kinh sách được in, ai thấy, nghe, trì tụng, cúng dường đều được công đức vô lượng.  
+    Anyone who sees, hears, recites, or makes offerings to the printed scriptures gains immeasurable merit.
+
+---
+
+> （以上節錄自《印光大師文鈔卷四．文鈔三編．文一》）  
+> Trích từ: Ấn Quang Đại Sư Văn Sao, Quyển 4, Văn Sao Tam Biên, Văn số 1  
+> From: *Master Yinguang’s Collected Writings*, Volume 4, Third Compilation, Essay 1
+
+---
+
+### 📌 Lời khuyên cuối văn
+
+佛教徒於佛經佛像之印造，應當虔誠發心，隨力印造，流通世間，利益眾生，功德無量，福報無窮。  
+*Fójiàotú yú Fójīng Fóxiàng zhī yìnzào, yīngdāng qiánchéng fāxīn, suílì yìnzào, liútōng shìjiān, lìyì zhòngshēng, gōngdé wúliàng, fúbào wúqióng*  
+Phật tử khi ấn hành kinh Phật và hình tượng Phật nên phát tâm thành kính, tùy sức mà in, lưu truyền khắp thế gian, lợi ích chúng sinh, công đức vô lượng, phúc báo vô cùng.  
+Buddhists should sincerely vow to print scriptures and images according to their ability, circulate them widely, benefit sentient beings, and accumulate boundless merit and blessings.
+
+若能如是，則可轉禍為福，消災免難，祈福延壽，善業增長，慧命增明，實為利人利己之善行也！  
+*Ruò néng rúshì, zé kě zhuǎn huò wéi fú, xiāozāi miǎnnàn, qífú yánshòu, shànyè zēngzhǎng, huìmìng zēngmíng, shí wéi lì rén lì jǐ zhī shànxíng yě!*  
+Nếu làm được như vậy thì có thể chuyển họa thành phúc, tiêu tai giải nạn, cầu phúc kéo dài tuổi thọ, tăng trưởng thiện nghiệp, khai sáng trí tuệ, thật là việc thiện lợi mình lợi người!  
+By doing so, one can turn misfortune into blessings, dispel calamities, extend life, grow virtuous karma, and brighten wisdom—truly a noble act that benefits both self and others!
+
+---
+
+Nếu bạn cần mình chuyển sang HTML, LaTeX, hoặc định dạng khác, mình làm ngay nhé!
